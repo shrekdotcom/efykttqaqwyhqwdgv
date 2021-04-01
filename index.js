@@ -57,4 +57,4 @@ client.on("message", message => {
 	}
 })
 
-client.login(process.env.toke);
+client.login(process.env.token);
