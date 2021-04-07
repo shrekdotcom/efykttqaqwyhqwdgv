@@ -49,12 +49,13 @@ client.on("message", message => {
 	}
 	if (message.content === ">work internet troll") {
 		let embed = new Discord.MessageEmbed()
-			.setTitle("How can I take down his game servers?!")
-			.setDescription("A:Spam on one tab                       B:Use a PoD                                             C:Ddos it.")
+			.setTitle("Type the phrase below")
+			.setDescription("The password to the ")
 			.setColor("Blue")
 			.setFooter("Make sure you are secretive or you will get reported.")
 		message.channel.send(embed)
 	}
-})
+}
+if (message.content === ))
 
 client.login(process.env.token);
