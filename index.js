@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 app.get("/", (req, res) => {
-	res.send("hello hell!")
+	res.send("how did u find this lol")
 })
 
 app.listen(3000, () => {
